@@ -1,0 +1,323 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+
+.navbar-brand{
+    font-size: 40px;
+    color: black;
+}
+
+.navbar{
+    background: linear-gradient(266deg, rgb(183, 206, 164) 0%, rgb(169, 219, 146) 47%, rgb(125, 184, 92) 100%) rgb(57, 179, 41); 
+}
+.container-fluid{
+    display: flex;
+    justify-content: space-around;
+}
+.nav-link{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+    margin: 5px;
+}
+
+.nav-link:hover{
+    text-decoration: none;
+    background-color: chocolate;
+    border-radius: 30px;
+}
+
+
+.fondo{ 
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-color: rgb(205, 240, 194);
+    height: 100vh;
+    font-family: 'Oswald', sans-serif;
+}
+
+
+.logo{ 
+    color: rgb(190, 214, 55); 
+font-size: 50px;
+}
+
+
+.cuadrado{ 
+    margin: 0 auto;
+width: 90%;
+display: flex;
+justify-content: space-between;
+text-align: center;
+}
+
+
+h2{
+    font-weight: 700;
+margin: 10px;
+animation-name: animacion;
+animation-duration: 2s;
+animation-iteration-count: infinite;
+-o-animation-delay: 5s;
+}
+
+
+.columna{  
+    background: linear-gradient(266deg, rgb(73, 253, 2) 0%, rgb(41, 189, 41) 47%, rgb(72, 141, 78) 100%) rgb(67, 85, 69); 
+border: 1px solid black;
+margin: 20px; margin-top: 60px;
+padding: 40px;
+border-radius: 50px;
+box-shadow: 10px 10px #888;
+}
+
+
+.pecio{ 
+    font-size: 50px;
+color: aqua;
+margin: 30px;
+}
+
+
+p{
+    margin: 20px;
+    }
+
+
+.productos{ 
+    margin: 50px ;
+font-size: 30px;
+border: 3px solid rgb(255, 255, 255);
+border-radius: 50px;
+padding: 10px;
+}
+
+
+.productos:hover{ 
+    background-color: crimson;
+}
+
+
+.uno{ 
+    border-bottom: 2px solid rgb(221, 221, 221);
+margin-bottom: 10px;
+}
+
+
+.imagen{
+width: 90px;
+margin: 5px;
+}
+
+
+.promociones{
+display: flex;
+justify-content: space-around;
+margin-top: 20px;
+margin-bottom: 30px;
+margin-right: 40px;
+
+}
+
+
+.control{
+border: 3px solid black;
+border-radius: 5px;
+background-color:  rgb(120, 199, 96);
+box-shadow: 10px 10px 10px rgb(0, 0, 0);
+}
+
+
+.titulopromo{ 
+    font-size: 20px;
+margin: 20px;
+color: azure;
+display: flex;
+text-align: center;
+} 
+
+
+.aproductos{ 
+    font-size: 20px;
+border: 1px solid black;
+border-radius: 100px;
+padding: 10px;
+background-color:rgb(17, 102, 43);
+color: aliceblue;
+}
+
+
+.aproductos:hover{ 
+    background-color: rgb(24, 83, 42);
+}
+
+
+.ulll{
+    margin: 30px;
+    }
+
+
+footer{
+    background-color: rgb(1, 90, 45);
+    
+}
+
+
+h4{
+    font-size: 40px;
+display: flex;
+justify-content: center;
+color: aliceblue;
+}
+
+
+.redes{
+
+    
+}
+
+
+.padre-li{
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+
+.lire{
+
+}
+
+
+.lire a{
+    text-decoration: none;
+    color: aliceblue;
+}
+
+
+.titulo{
+    font-size: 60px;
+    text-align:left;
+    color: rgb(0, 0, 0);
+    margin-left: 20px;
+}
+
+
+@keyframes animacion{
+    0%{
+        color: rgb(0, 0, 0);
+        
+    }
+    25%{
+        color: rgb(4, 0, 255);
+    }
+    50%{
+        color: rgb(255, 0, 0);
+    }
+    75%{
+        color: rgb(232, 2, 253);
+    }
+    100%{
+        color: rgb(68, 0, 255);
+    }
+}
+
+
+h5{
+    font-size: 15px;
+    color: aliceblue;
+}
+
+
+.imagen2{
+    width: 130px;
+    margin: 5px;
+    }
+    
+
+.pedido{
+    border: 1px solid black;
+    border-radius: 50px;
+    font-size: 30px;
+    margin-left: 80px;
+    background-color: rgb(17, 102, 43);
+    padding: 5px;
+    color: aliceblue;
+}
+
+
+.pedido:hover{ 
+    background-color: rgb(22, 77, 11);
+}
+
+
+
+
+.quienessomos-p{ 
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+}
+
+
+.quienessomos-section{
+    margin: 20px;
+    width: 50%;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 20px;
+    background-color: rgb(6, 49, 6);
+}
+
+
+.nombres{
+    margin-left: 20px;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+}
+
+
+h6{
+    font-size: 30px;
+margin: 10px;
+color: rgb(255, 255, 255);
+}
+
+.ml-0{
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+
+
+.grid-container-quines-somos{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(500px, auto));
+    grid-auto-rows: minmax(500px, auto);
+    gap: 20px;
+    padding: 20px;
+    grid-auto-flow: dense;
+}
+
+
+
+.grid-container-quines-somos div{
+    border: solid 1px black;
+    background-color: rgb(0, 0, 0);
+    border-radius: 50px;
+}
+
+
+
+.item-2-quienessomos{
+    background-image: url(https://cdn.discordapp.com/attachments/556970734501494806/961086268173856788/unknown.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
