@@ -5,7 +5,7 @@
     list-style: none;
 }
 
-
+/* NAVBAR */
 .navbar-brand{
     font-size: 40px;
     color: black;
@@ -48,38 +48,7 @@ font-size: 50px;
 }
 
 
-.cuadrado{ 
-    margin: 0 auto;
-width: 100%;
-display: flex;
-justify-content: center;
-text-align: center;
 
-}
-
-
-h2{
-    font-weight: 700;
-margin: 10px;
-animation-name: animacion;
-animation-duration: 2s;
-animation-iteration-count: infinite;
--o-animation-delay: 5s;
-}
-
-
-.columna{  
-    background: linear-gradient(266deg, rgb(73, 253, 2) 0%, rgb(41, 189, 41) 47%, rgb(72, 141, 78) 100%) rgb(67, 85, 69); 
-border-radius: 50px;
-border: solid 1px black;
-}
-
-
-.pecio{ 
-    font-size: 50px;
-color: aqua;
-margin: 30px;
-}
 
 
 p{
@@ -123,12 +92,6 @@ margin-right: 40px;
 }
 
 
-.control{
-border: 3px solid black;
-border-radius: 5px;
-background-color:  rgb(120, 199, 96);
-box-shadow: 10px 10px 10px rgb(0, 0, 0);
-}
 
 
 .titulopromo{ 
@@ -140,14 +103,6 @@ text-align: center;
 } 
 
 
-.aproductos{ 
-    font-size: 20px;
-border: 1px solid black;
-border-radius: 100px;
-padding: 10px;
-background-color:rgb(17, 102, 43);
-color: aliceblue;
-}
 
 
 .aproductos:hover{ 
@@ -155,10 +110,10 @@ color: aliceblue;
 }
 
 
-.ulll{
-    margin: 30px;
-    }
 
+
+
+/* FOTTER */
 
 footer{
     background-color:  rgb(120, 199, 96);
@@ -174,10 +129,7 @@ color: aliceblue;
 }
 
 
-.redes{
 
-    
-}
 
 
 .padre-li{
@@ -205,24 +157,7 @@ color: aliceblue;
 }
 
 
-@keyframes animacion{
-    0%{
-        color: rgb(0, 0, 0);
-        
-    }
-    25%{
-        color: rgb(4, 0, 255);
-    }
-    50%{
-        color: rgb(255, 0, 0);
-    }
-    75%{
-        color: rgb(232, 2, 253);
-    }
-    100%{
-        color: rgb(68, 0, 255);
-    }
-}
+
 
 
 h5{
@@ -231,10 +166,6 @@ h5{
 }
 
 
-.imagen2{
-    width: 130px;
-    margin: 5px;
-    }
     
 
 .pedido{
@@ -253,35 +184,9 @@ h5{
 }
 
 
+/* CARRUSEL */
 
 
-.quienessomos-p{ 
-    font-size: 20px;
-    color: rgb(255, 255, 255);
-}
-
-
-.quienessomos-section{
-    margin: 20px;
-    width: 50%;
-    border: 1px solid rgb(0, 0, 0);
-    border-radius: 20px;
-    background-color: rgb(6, 49, 6);
-}
-
-
-.nombres{
-    margin-left: 20px;
-    color: rgb(255, 255, 255);
-    font-size: 20px;
-}
-
-
-h6{
-    font-size: 30px;
-margin: 10px;
-color: rgb(255, 255, 255);
-}
 
 .ml-0{
     margin-left: 0;
@@ -290,7 +195,7 @@ color: rgb(255, 255, 255);
     margin-bottom: 0;
 }
 
-
+/* GRID DE QUIENES SOMOS */
 
 .grid-container-quines-somos{
     display: grid;
@@ -301,6 +206,31 @@ color: rgb(255, 255, 255);
     grid-auto-flow: dense;
 }
 
+
+
+.quienessomos-p{ 
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+}
+
+
+
+
+
+.nombres{
+    margin-left: 20px;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+}
+
+
+
+
+h6{
+    font-size: 30px;
+margin: 10px;
+color: rgb(255, 255, 255);
+}
 
 
 .grid-container-quines-somos div{
@@ -319,7 +249,14 @@ color: rgb(255, 255, 255);
     height: 100vh;
 }
 
+/* GRID DE PRODUCTOS */
 
+.titulo-promos{
+    font-size: 50px;
+    margin: 20px;
+    color: black;
+    
+}
 
 .grid-container{
     display: grid;
@@ -347,7 +284,183 @@ color: rgb(255, 255, 255);
     background: linear-gradient(266deg, rgb(73, 253, 2) 0%, rgb(41, 189, 41) 47%, rgb(72, 141, 78) 100%) rgb(67, 85, 69); 
 }
 
+.cuadrado{ 
+    margin: 0 auto;
+width: 100%;
+display: flex;
+justify-content: center;
+text-align: center; 
+}
+
+
+
+
+
+
+h2{
+    font-weight: 700;
+margin: 10px;
+animation-name: animacion;
+animation-duration: 2s;
+animation-iteration-count: infinite;
+-o-animation-delay: 5s;
+}
+
+
+@keyframes animacion{
+    0%{
+        color: rgb(0, 0, 0);
+        
+    }
+    25%{
+        color: rgb(4, 0, 255);
+    }
+    50%{
+        color: rgb(255, 0, 0);
+    }
+    75%{
+        color: rgb(232, 2, 253);
+    }
+    100%{
+        color: rgb(68, 0, 255);
+    }
+}
+
+
+
+.pecio{ 
+    font-size: 50px;
+color: aqua;
+margin: 30px;
+}
+
+
 
 .item-1{
     border: solid 1px black;
 }
+
+
+/* GRID INDEX */
+
+
+
+.grid-container-index{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, auto));
+    grid-auto-rows: minmax(150px, auto);
+    grid-auto-flow: dense;
+    
+    }
+
+.item-index{
+    border: 3px solid black;
+    border-radius: 5px;
+    background-color:  rgb(120, 199, 96);
+    box-shadow: 10px 10px 10px rgb(0, 0, 0)
+    }
+
+
+@media (min-width: 1312px){
+    .tall2{
+        grid-column: span 2;
+        border: 3px solid black;
+    border-radius: 5px;
+    background-color:  rgb(120, 199, 96);
+    box-shadow: 10px 10px 10px rgb(0, 0, 0)
+    }
+    .imagen{
+        width: 90px;
+        margin: 5px;
+        }
+        .grid-container-index{
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(250px, auto));
+            grid-auto-rows: minmax(250px, auto);
+            grid-auto-flow: dense;
+            
+            }
+}
+
+
+.imagen{
+    width: 90px;
+    margin: 5px;
+    }
+
+
+    .imagen2{
+        width: 130px;
+        margin: 5px;
+        }
+
+        .ulll{
+            margin: 30px;
+            }
+
+
+            .aproductos{ 
+                font-size: 20px;
+            border: 1px solid black;
+            border-radius: 100px;
+            padding: 10px;
+            background-color:rgb(17, 102, 43);
+            color: aliceblue;
+            }
+            
+
+
+            /* FORMULARIO */
+
+
+            .registro1{
+                width: 400px;
+                background-color: rgba(0, 0, 0, 0.411);
+                padding: 30px;
+                margin: auto;
+                margin-top: 50px;
+                border-radius: 4px;
+                font-family: 'Times New Roman', Times, serif;
+                color: aliceblue;
+                box-shadow: 7px 13px 37px #000;
+                margin-bottom: 50px;
+                }
+                
+                .registro1 h1{
+                    font-size: 22px;
+                    margin-bottom: 20px;
+                }
+                
+                .control2{
+                    width: 100%;
+                    background-color: rgba(0, 0, 0, 0.411);
+                    padding: 10px;
+                    border-radius: 4px;
+                    margin-bottom: 16px;
+                    border: 1px solid rgba(0, 0, 0, 0.411);
+                    font-family: 'Times New Roman', Times, serif;
+                    font-size: 18px;
+                }
+                
+                .registro1 p{
+                    height: 40px;
+                    text-align: center;
+                    text-align: center;
+                    font-size: 18px;
+                    line-height: 40px;
+                }
+                
+                .registro1 a{
+                    color: white;
+                    text-decoration: none;
+                
+                }
+                .botones{
+                    width: 100%;
+                    background-color: rgb(38, 43, 117);
+                    border: none;
+                    padding: 12px;
+                    color: white;
+                    margin: 16px 0;
+                    font-size: 16px;
+                }
