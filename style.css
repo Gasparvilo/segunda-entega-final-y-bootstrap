@@ -50,10 +50,11 @@ font-size: 50px;
 
 .cuadrado{ 
     margin: 0 auto;
-width: 90%;
+width: 100%;
 display: flex;
-justify-content: space-between;
+justify-content: center;
 text-align: center;
+
 }
 
 
@@ -69,11 +70,8 @@ animation-iteration-count: infinite;
 
 .columna{  
     background: linear-gradient(266deg, rgb(73, 253, 2) 0%, rgb(41, 189, 41) 47%, rgb(72, 141, 78) 100%) rgb(67, 85, 69); 
-border: 1px solid black;
-margin: 20px; margin-top: 60px;
-padding: 40px;
 border-radius: 50px;
-box-shadow: 10px 10px #888;
+border: solid 1px black;
 }
 
 
@@ -163,7 +161,7 @@ color: aliceblue;
 
 
 footer{
-    background-color: rgb(1, 90, 45);
+    background-color:  rgb(120, 199, 96);
     
 }
 
@@ -185,7 +183,6 @@ color: aliceblue;
 .padre-li{
     display: flex;
     justify-content: space-around;
-    
 }
 
 
@@ -315,9 +312,42 @@ color: rgb(255, 255, 255);
 
 
 .item-2-quienessomos{
-    background-image: url(https://cdn.discordapp.com/attachments/556970734501494806/961086268173856788/unknown.png);
+    background-image: url(https://cdn.discordapp.com/attachments/556970734501494806/968702079499649074/unknown.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     height: 100vh;
+}
+
+
+
+.grid-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, auto));
+    grid-auto-rows: minmax(200px, auto);
+    gap: 20px;
+    grid-auto-flow: dense;
+    margin: 20px;
+}
+
+.tall{
+    display: grid;
+    grid-row: span 3;
+    grid-column: span 2;
+    grid-template-columns: repeat(auto-fill, minmax(300px, auto));
+    grid-auto-rows: minmax(100px, auto);
+    gap: 20px;
+    grid-auto-flow: dense;
+    border:solid 2px black;
+    border-radius: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    background: linear-gradient(266deg, rgb(73, 253, 2) 0%, rgb(41, 189, 41) 47%, rgb(72, 141, 78) 100%) rgb(67, 85, 69); 
+}
+
+
+.item-1{
+    border: solid 1px black;
 }
